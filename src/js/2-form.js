@@ -27,7 +27,7 @@ form.addEventListener('submit', function (event) {
     form.reset();
     localStorage.removeItem('feedback-form-state');
   } else {
-    console.log('Please fill out all fields.');
+    alert('Please enter your email or message');
   }
 });
 
